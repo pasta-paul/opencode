@@ -611,7 +611,7 @@ function App(props: { onSnapshot?: () => Promise<string[]> }) {
       category: "System",
     },
     {
-      title: mode() === "dark" ? "Switch to light mode" : "Switch to dark mode",
+      title: mode() === "dark" ? "Light mode" : "Dark mode",
       value: "theme.switch_mode",
       onSelect: (dialog) => {
         setMode(mode() === "dark" ? "light" : "dark")
